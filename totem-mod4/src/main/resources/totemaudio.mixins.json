@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "com.totemaudio.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["TotemPopMixin", "VanillaMuteMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

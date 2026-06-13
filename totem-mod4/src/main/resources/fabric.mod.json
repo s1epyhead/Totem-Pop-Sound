@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "totemaudio",
+  "version": "3.1.0",
+  "name": "Totem Audio",
+  "description": "Custom totem pop sounds for CrystalPvP. Self vs enemy pitch/volume control, ModMenu config.",
+  "authors": ["s1epyhead"],
+  "contact": {
+    "homepage": "https://github.com/s1epyhead/Totem-Pop-Sound",
+    "sources": "https://github.com/s1epyhead/Totem-Pop-Sound"
+  },
+  "environment": "client",
+  "icon": "pack.png",
+  "entrypoints": {
+    "client": ["com.totemaudio.TotemAudioMod"],
+    "modmenu": ["com.totemaudio.TotemAudioModMenuEntry"]
+  },
+  "mixins": ["totemaudio.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.9"
+  },
+  "suggests": { "modmenu": "*" }
+}
