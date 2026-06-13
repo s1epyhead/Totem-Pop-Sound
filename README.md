@@ -24,4 +24,4 @@ Config file: `config/totemaudio.json` • Sounds folder: `config/totemaudio_soun
 - All handlers wrapped in `catch(Throwable)`
 ## Build from source
 Requires JDK 21+.
-https://discord.gg/DfDqYvb9CZ
+Support Server: https://discord.gg/DfDqYvb9CZ
