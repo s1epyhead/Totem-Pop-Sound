@@ -22,4 +22,6 @@ Config file: `config/totemaudio.json` • Sounds folder: `config/totemaudio_soun
 - No Fabric API dependency, no keybindings
 - Every mixin is optional (`required: false`, `defaultRequire: 0`) — if a future MC version changes internals, the mod silently degrades instead of crashing
 - All handlers wrapped in `catch(Throwable)`
+## Build from source
+Requires JDK 21+.
 https://discord.gg/DfDqYvb9CZ
